@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일\Item">
+      <UniqueIdentifier>{79f8c305-a9c7-4c4c-999d-60a0ae0086aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Item">
+      <UniqueIdentifier>{51b24bae-ba76-481a-a4a8-cc8268ca6b2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Inventory">
+      <UniqueIdentifier>{5b21dea6-b875-4adb-a6eb-9cf50247b6e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Inventory">
+      <UniqueIdentifier>{bbca6c6c-967c-4832-99f4-c0f4469034bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Player">
+      <UniqueIdentifier>{65203ac3-ca92-4fda-af1e-9cdc41a0b322}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Player">
+      <UniqueIdentifier>{15c5ea87-9d50-4e57-a57d-57ac840b8ede}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Item\Weapon">
+      <UniqueIdentifier>{098df5ea-d1f2-4924-bb02-2c82c7c8d8dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Item\Weapon">
+      <UniqueIdentifier>{82024fdb-88ff-4dcf-89b9-0d1624a8069d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Item\Armor">
+      <UniqueIdentifier>{12e3f312-fc84-459e-917b-35dd36ec6703}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Item\Armor">
+      <UniqueIdentifier>{ab637ed5-22c7-4692-844b-c3c76ad05c95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Item\Consumable">
+      <UniqueIdentifier>{2e948f3d-88d5-464e-91b2-bd387fbaa0cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Item\QuestItem">
+      <UniqueIdentifier>{dab26e19-d2bc-49d5-808e-f36ce18478fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Item\Consumable">
+      <UniqueIdentifier>{ff8cff42-535c-4c6a-ba06-f53e716855d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Item\QuestItem">
+      <UniqueIdentifier>{ae0ec64b-5e9f-482d-87f0-65b6313cd6a0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Equip.h">
+      <Filter>헤더 파일\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.h">
+      <Filter>헤더 파일\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="Item_h.h">
+      <Filter>헤더 파일\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="Inventory.h">
+      <Filter>헤더 파일\Inventory</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>헤더 파일\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Weapon.h">
+      <Filter>헤더 파일\Item\Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="LongSword.h">
+      <Filter>헤더 파일\Item\Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="ShortSword.h">
+      <Filter>헤더 파일\Item\Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="Armor.h">
+      <Filter>헤더 파일\Item\Armor</Filter>
+    </ClInclude>
+    <ClInclude Include="Upper.h">
+      <Filter>헤더 파일\Item\Armor</Filter>
+    </ClInclude>
+    <ClInclude Include="Lower.h">
+      <Filter>헤더 파일\Item\Armor</Filter>
+    </ClInclude>
+    <ClInclude Include="Glove.h">
+      <Filter>헤더 파일\Item\Armor</Filter>
+    </ClInclude>
+    <ClInclude Include="Shield.h">
+      <Filter>헤더 파일\Item\Armor</Filter>
+    </ClInclude>
+    <ClInclude Include="Shoes.h">
+      <Filter>헤더 파일\Item\Armor</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemGenerator.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Run_h.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Consumable.h">
+      <Filter>헤더 파일\Item\Consumable</Filter>
+    </ClInclude>
+    <ClInclude Include="QuestItem.h">
+      <Filter>헤더 파일\Item\QuestItem</Filter>
+    </ClInclude>
+    <ClInclude Include="HpPotion.h">
+      <Filter>헤더 파일\Item\Consumable</Filter>
+    </ClInclude>
+    <ClInclude Include="MpPotion.h">
+      <Filter>헤더 파일\Item\Consumable</Filter>
+    </ClInclude>
+    <ClInclude Include="DragonTear.h">
+      <Filter>헤더 파일\Item\QuestItem</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Run.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Equip.cpp">
+      <Filter>소스 파일\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="Item.cpp">
+      <Filter>소스 파일\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="Inventory.cpp">
+      <Filter>소스 파일\Inventory</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>소스 파일\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Weapon.cpp">
+      <Filter>소스 파일\Item\Weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="LongSword.cpp">
+      <Filter>소스 파일\Item\Weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="ShortSword.cpp">
+      <Filter>소스 파일\Item\Weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="Armor.cpp">
+      <Filter>소스 파일\Item\Armor</Filter>
+    </ClCompile>
+    <ClCompile Include="Upper.cpp">
+      <Filter>소스 파일\Item\Armor</Filter>
+    </ClCompile>
+    <ClCompile Include="Lower.cpp">
+      <Filter>소스 파일\Item\Armor</Filter>
+    </ClCompile>
+    <ClCompile Include="Glove.cpp">
+      <Filter>소스 파일\Item\Armor</Filter>
+    </ClCompile>
+    <ClCompile Include="Shield.cpp">
+      <Filter>소스 파일\Item\Armor</Filter>
+    </ClCompile>
+    <ClCompile Include="Shoes.cpp">
+      <Filter>소스 파일\Item\Armor</Filter>
+    </ClCompile>
+    <ClCompile Include="Consumable.cpp">
+      <Filter>소스 파일\Item\Consumable</Filter>
+    </ClCompile>
+    <ClCompile Include="QuestItem.cpp">
+      <Filter>소스 파일\Item\QuestItem</Filter>
+    </ClCompile>
+    <ClCompile Include="HpPotion.cpp">
+      <Filter>소스 파일\Item\Consumable</Filter>
+    </ClCompile>
+    <ClCompile Include="MpPotion.cpp">
+      <Filter>소스 파일\Item\Consumable</Filter>
+    </ClCompile>
+    <ClCompile Include="DragonTear.cpp">
+      <Filter>소스 파일\Item\QuestItem</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
